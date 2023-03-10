@@ -28,7 +28,7 @@ public class Docente extends Persona {
      */
     public void Consultar() {
         // TODO implement here
-        return null;
+        
     }
 
     /**
@@ -36,7 +36,7 @@ public class Docente extends Persona {
      */
     public void AsignarNotas() {
         // TODO implement here
-        return null;
+        
     }
 
     /**
@@ -44,7 +44,7 @@ public class Docente extends Persona {
      */
     public void AsignarFallas() {
         // TODO implement here
-        return null;
+        
     }
 
 }

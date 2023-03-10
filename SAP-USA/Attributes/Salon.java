@@ -31,7 +31,7 @@ public class Salon {
     /**
      * 
      */
-    public bool TieneAire;
+    public Boolean TieneAire;
 
     /**
      * 

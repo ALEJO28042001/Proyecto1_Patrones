@@ -31,7 +31,7 @@ public class PasarelaPagos {
      */
     public void GenerarRecibo() {
         // TODO implement here
-        return null;
+        
     }
 
     /**

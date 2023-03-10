@@ -7,7 +7,7 @@ public class FactoryPagoPSE extends PagoDebito {
     /**
      * @return
      */
-    public PagoPSE RealizarPago() {
+    public PagoDebito RealizarPago() {
         // TODO implement here
         return null;
     }

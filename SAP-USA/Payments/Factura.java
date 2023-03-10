@@ -28,11 +28,7 @@ public class Factura {
      */
     public ArrayList<String> ResumenPago;
 
-    /**
-     * 
-     */
-    public void MedioDePago;
-
+  
     /**
      * 
      */

@@ -23,17 +23,10 @@ public class Administrativo extends Persona {
      */
     private long Salario;
 
-    /**
-     * 
-     */
-    public void Attribute3;
-
-    /**
-     * @return
-     */
+    
     public void Consultar() {
         // TODO implement here
-        return null;
+        
     }
 
     /**
@@ -41,7 +34,7 @@ public class Administrativo extends Persona {
      */
     public void ModificarNotas() {
         // TODO implement here
-        return null;
+        
     }
 
     /**
@@ -49,7 +42,7 @@ public class Administrativo extends Persona {
      */
     public void InscribirEstudiante() {
         // TODO implement here
-        return null;
+        
     }
 
     /**
@@ -57,7 +50,7 @@ public class Administrativo extends Persona {
      */
     public void CrearEstudiante() {
         // TODO implement here
-        return null;
+        
     }
 
     /**
@@ -65,7 +58,7 @@ public class Administrativo extends Persona {
      */
     public void PagarNomina() {
         // TODO implement here
-        return null;
+        
     }
 
     /**

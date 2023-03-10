@@ -21,6 +21,6 @@ public class ICETEX {
     /**
      * 
      */
-    public bool Renovacion;
+    public Boolean Renovacion;
 
 }

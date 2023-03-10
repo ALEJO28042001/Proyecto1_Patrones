@@ -26,7 +26,7 @@ public class PagoCredito {
     /**
      * 
      */
-    public void NumTarjeta;
+    public long NumTarjeta;
 
     /**
      * 

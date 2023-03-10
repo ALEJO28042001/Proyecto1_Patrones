@@ -16,7 +16,7 @@ public class Pago extends PagoCredito {
     /**
      * 
      */
-    public Users.Persona.Nombre Persona.Apellido Persona;
+    public String usuario;  //toString(Users.Persona.Nombre+Persona.Apellido);
 
     /**
      * 
@@ -28,9 +28,6 @@ public class Pago extends PagoCredito {
      */
     public String Direccion;
 
-    /**
-     * 
-     */
-    public void Attribute1;
+   
 
 }
