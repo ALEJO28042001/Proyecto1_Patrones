@@ -5,17 +5,19 @@ import java.util.*;
 /**
  * 
  */
-public class PagoDebito {
+public class PagoDebito extends Pago{
 
-    /**
-     * Default constructor
-     */
     public PagoDebito() {
     }
 
-    /**
-     * 
-     */
     public String Banco;
 
+	public String getBanco() {
+		return Banco;
+	}
+
+	public void setBanco(String banco) {
+		Banco = banco;
+	}
+    
 }

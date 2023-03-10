@@ -35,7 +35,7 @@ public class Estudiante extends Persona {
     private void SolicitudGrado() {
     }
     private void PromediarSemestre() {
-    	this.CalcularCreditosIsncritos();
+    	this.CalcularCreditosInscritos();
     	for (int i=0;i<this.materiasInscritas.size();i++)
     	{
     		this.PromedioSemestre+=this.materiasInscritas.get(i).Creditos*this.materiasInscritas.get(i).Nota[3]/this.creditosInscritos;
@@ -45,7 +45,7 @@ public class Estudiante extends Persona {
     	
     }
     
-    private void CalcularCreditosIsncritos()
+    private void CalcularCreditosInscritos()
     {
     	for (int i=0;i<this.materiasInscritas.size();i++)
     	{

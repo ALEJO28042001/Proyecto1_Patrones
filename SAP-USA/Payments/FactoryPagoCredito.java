@@ -13,12 +13,19 @@ public class FactoryPagoCredito extends PagoCredito {
     public FactoryPagoCredito() {
     }
 
-    /**
-     * @return
-     */
     public PagoCredito RealizarPago() {
+    	PagoCredito pago = new PagoCredito();
+    	
+    	pago.getNumTarjeta();
+    	pago.getUsuario();
+    	
         // TODO implement here
-        return null;
+        return pago;
     }
+    
+    
+    
+    
+    
 
 }
