@@ -2,22 +2,19 @@ package Payments;
 
 import java.util.*;
 
-/**
- * 
- */
-public class FactoryFinanciar extends FactoryICETEX {
+import Users.Persona;
 
-    /**
-     * Default constructor
-     */
+public class FactoryFinanciar extends FactoryPago {
+
+
     public FactoryFinanciar() {
     }
 
-    /**
-     * @return
-     */
-    public FactoryFinanciar RealizarPago() {
-        // TODO implement here
+
+    public Financiacion RealizarPago() {
+        
+    	
+    	
         return null;
     }
 

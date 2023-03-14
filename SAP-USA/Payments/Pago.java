@@ -12,7 +12,7 @@ public class Pago {
     }
 
     public String usuario;  //toString(Users.Persona.Nombre+Persona.Apellido);
-    public int NumeroTelefono;
+    public double NumeroTelefono;
     public String Direccion;
     
 	public String getUsuario() {
@@ -21,10 +21,10 @@ public class Pago {
 	public void setUsuario(String usuario) {
 		this.usuario = usuario;
 	}
-	public int getNumeroTelefono() {
+	public double getNumeroTelefono() {
 		return NumeroTelefono;
 	}
-	public void setNumeroTelefono(int numeroTelefono) {
+	public void setNumeroTelefono(double numeroTelefono) {
 		NumeroTelefono = numeroTelefono;
 	}
 	public String getDireccion() {
