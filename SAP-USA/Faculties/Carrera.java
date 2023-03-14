@@ -4,19 +4,25 @@ import Attributes.Materia;
 
 public class Carrera {
 
-    public Carrera() {
+
+    public String nombre;
+    public String id;
+    public ArrayList<Materia> pensum;
+
+    public Carrera(String nombre, String id) {
+        this.nombre = nombre;
+        this.id = id;
+        this.pensum = new ArrayList<Materia>();
+
     }
-    public String Nombre;
-    public String ID;
-    public ArrayList<Materia> Pensum;
     
     public void addMateria()
     {
-    	this.Pensum.add(new Materia());
+    	this.pensum.add(new Materia());
     }
     public void delMateria(int ID)
     {
-    	this.Pensum.remove(this.Pensum.get(ID));
+    	this.pensum.remove(this.pensum.get(ID));
     }
 
 }

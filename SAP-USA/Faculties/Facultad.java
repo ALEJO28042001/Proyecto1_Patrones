@@ -11,9 +11,9 @@ public class Facultad {
     }
     
 
-    public void addCarrera()
+    public void addCarrera(Carrera c)
     {
-    	this.Carreras.add(new Carrera());
+    	this.Carreras.add(c);
     }
     public void delCarrera(int ID)
     {
